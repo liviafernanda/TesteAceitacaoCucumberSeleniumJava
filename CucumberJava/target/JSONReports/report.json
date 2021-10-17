@@ -1,0 +1,190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-05T14:15:28.256Z",
+        "line": 3,
+        "name": "Validar o preenchimento de um formulario simples",
+        "description": "",
+        "id": "teste-de-preechimento-do-formulario-do-google-forms;validar-o-preenchimento-de-um-formulario-simples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3060000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navegador aberto em formulario do Google",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.navegador_aberto_em_formulario_do_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2748000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "usuario preenche o nome",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.usuario_preenche_o_nome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2194000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preenche o email",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.preenche_o_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2133000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preenche o assunto",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.preenche_o_assunto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2181000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preenche a mensagem",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.preenche_a_mensagem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "envia o formulario",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.envia_o_formulario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2680000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o formulario deve ser enviado com sucesso",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.o_formulario_deve_ser_enviado_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Teste de preechimento do formulario do Google Forms",
+    "description": "",
+    "id": "teste-de-preechimento-do-formulario-do-google-forms",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/preenchimentoGoogleForm.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-05T14:15:43.849Z",
+        "line": 7,
+        "name": "Validar se a ferramenta de pesquisa do Google esta funcionando",
+        "description": "",
+        "id": "componente-para-testar-a-funcionalidade-de-pesquisa-do-google;validar-se-a-ferramenta-de-pesquisa-do-google-esta-funcionando",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1827000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navegador esta aberto",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.navegador_esta_aberto()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1502000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usuario esta na pagina inicial do Google",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.usuario_esta_na_pagina_inicial_do_google()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usuario digita um texto na caixa de pesquisa",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.usuario_digita_um_texto_na_caixa_de_pesquisa()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4322000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "pressiona a tecla Enter",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.pressiona_a_tecla_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2785000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "usuario e direcionado para os resultados da pesquisa",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.usuario_e_direcionado_para_os_resultados_da_pesquisa()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Componente para testar a funcionalidade de pesquisa do Google",
+    "description": "",
+    "id": "componente-para-testar-a-funcionalidade-de-pesquisa-do-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/searchGoogle.feature",
+    "tags": []
+  }
+]
